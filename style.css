@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-image: url(./images/pngegg\ 1.png);
+    font-family: arial;
+}
+
+#nav-bar .nav-bar{
+    position: fixed;
+    display: flex;
+    width: 90%;
+    background-color: #644F0E;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    margin: 2em 4em ;
+    border-radius: 2.5em;
+    z-index: 333;
+}
+
+.nav-bar .ebook-logo{
+    background-color: white;
+    width: 4.5%;
+    height: 3.2em;
+    align-items: left;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav-bar .ebook-logo img{
+    width: 40%;
+    padding-top: 12px;
+}
+
+.nav-bar h2{
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-bar .nav-links ul{
+    display: flex; 
+    list-style: none;
+    margin: 0 5em;
+}
+
+.nav-bar .nav-links ul li a{
+    text-decoration: none;
+    margin: 0 1.5em;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-bar .nav-links a:hover{
+    color: #FFC107;
+}
+
+.nav-bar button{
+    height: 3.5em;
+    width: 8em;
+    border-radius: 2em;
+    border: none;
+    font-weight: 700;
+}
+
+/* End of navbar */
+
+/* Content starts here */
+
+.content-1{
+   /* display: flex; */
+}
+
+.content-1 img{
+    margin: 12em 4em 2em;  
+} 
+
+.content-1 h4{
+    position: relative;
+    margin-left: 7.5em;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    bottom: 3.6em;
+}
+
+.content-1 h1{
+    margin: 0 0 1em 1.6em;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.content-1 h1 span{
+    color: #644F0E;
+    font-weight: 600;
+}
+
+.content-1 p{
+    margin-left: 4em;
+    width: 45%;
+}
+
+.content-1 .app-link-img a img{
+    width: 18%;
+    margin: 2em -2em 2em 4em;
+}
+
+.content-1 .users-img img{
+    margin: 0 -5.5em 2em 4em;
+    width: 5%;
+}
+
+.content-1 h5{
+    position: relative;
+    margin-left: 19em;
+    bottom: 5em;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.content-1 h5 span{
+    font-weight: 600;
+}
+
+.container-1 .picture img{
+    width: 30em;
+    position: relative;
+    bottom: 37em;
+    left: 45em;
+    transition: 0.3s ease transform;
+}
+
+.container-1 .picture img:hover{
+    transform: scale(1.1);
+}
+
+.container-2 .content-2{
+    background-color: #644F0E;
+    color: white;
+    height: 25em;
+    border-radius: 15px;
+    margin: -33em  2em 0 2em ;
+
+}
+
+.container-2 .content-2 h3{
+    margin: 0 0 1em 2em;
+    padding-top: 2em;
+    font-size: 25px;
+}
+
+.container-2 .content-2 h3 span{
+    color: #FFC107;
+}
+
+.container-2 .content-2 p{
+    width: 31%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0 0 4em 3em;
+}
+
+.container-2 .content-2 .bottom-text{
+    display: flex;
+}
+
+.container-2 .content-2 .bottom-text h5{
+    margin: 6em 0 0 4em ;
+    font-weight: 200;
+
+}
+
+.container-2 .content-2 .bottom-text .line{
+    border: 5px;
+    width: 1.5px;
+    position: relative;
+    top: 3.2em;
+    height: 4em;
+    left: 0.5em;
+    margin: 0 0em 3em 2em;
+    background-color: white;
+}
+
+.container-2 .content-2 .bottom-text h5 span{
+    color: #FFC107;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container-2 .content-2 .ios-android-img img{
+   width: 26%; 
+   position: relative;
+   bottom: 19em;
+   left: 33em;
+}
+
+/* Content starts here */
+
